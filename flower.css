@@ -13,19 +13,21 @@ header {
     margin: 0 auto;
 
 }
-.section-heading{
+
+.section-heading {
     max-width: 500px;
     text-align: center;
     margin: 30px auto;
 
 }
-.feather-description{
+
+.feather-description {
     font-family: sans-serif;
     font-size: 15px;
     color: #272727;
 }
 
-.feather-title{
+.feather-title {
     color: #272727;
     text-align: center;
     margin-bottom: 16px;
@@ -71,36 +73,44 @@ header {
     font-size: 20px;
     padding: 15px 28px;
 }
-#feathure{
+
+#feathure {
     padding: 100px 0;
 }
-.section-content{
+
+.section-content {
     display: flex;
     justify-content: space-between;
     align-items: end;
     gap: 20px;
 
 }
-.section-content .flower .flower-img{
+
+.section-content .flower .flower-img {
     border-radius: 300px 300px 0px 0px;
     padding: 30px 15px 0px;
     height: 500px;
     display: flex;
     align-items: end;
 }
-.section-content .flower .flower-img img{
+
+.section-content .flower .flower-img img {
     width: 100%;
 }
-.section-content .flower .shafiul{
+
+.section-content .flower .shafiul {
     background: rgba(167, 33, 98, 0.15);
 }
-.section-content .flower .blue{
+
+.section-content .flower .blue {
     background: rgba(5, 151, 160, 0.15);
 }
-.section-content .flower .green{
+
+.section-content .flower .green {
     background: rgba(71, 125, 17, 0.15);
 }
-.section-content .flower p{
+
+.section-content .flower p {
     text-align: center;
     color: #272727;
     font-weight: 800;
@@ -109,3 +119,62 @@ header {
     margin: 10px 0;
 }
 
+.user-activite {
+    background: rgba(39, 39, 39, 0.5);
+    border-radius: 8px;
+    margin: 0px 150px;
+
+}
+
+.flex-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 45px;
+    text-align: center;
+
+}
+
+.flex-items div {
+    text-align: center;
+}
+
+.flex-items div img {
+    width: 50px;
+}
+
+.hot-deal {
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.hot-deal-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 30px;
+    margin-bottom: 20px;
+}
+
+.hot-deal-text p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hot-deal-text h2 {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.hot-deal-img img{
+    width:310px ;
+    height: 400px;
+}
