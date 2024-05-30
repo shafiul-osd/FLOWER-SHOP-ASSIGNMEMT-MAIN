@@ -252,3 +252,20 @@ header {
 .lataest-deal-inputs{
     margin: 20px 0px;
 }
+.footer-parts-text{
+    background: rgba(17, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.copyright-footer-text{
+    color: #fff;
+    margin: 20px 0px;
+}
+.copyright-footer-text h2 p{
+    align-items: center;
+}
+.footer-color-span{
+    color: #e55473;
+}
